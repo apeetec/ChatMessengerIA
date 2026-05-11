@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Messenger Chat Box</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="chat">
+    <header class="chat__header">
+      <div class="chat__meta">
+        <div class="chat__avatar" aria-hidden="true">🤖</div>
+        <div class="chat__title-wrap">
+          <div class="chat__title">IA Assistant</div>
+          <div class="chat__status">Online</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="chat__messages" id="messages">
+      <div class="message message--received">
+        <div class="message__bubble">Olá! Sou um assistente de IA. Como posso ajudar?</div>
+        <div class="message__time">Agora</div>
+      </div>
+    </main>
+
+    <form class="chat__input" action="#" aria-label="Enviar mensagem" id="entry-form">
+      <input type="text" placeholder="Escreva uma mensagem..." aria-label="mensagem">
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+<script src="script.js">
+
+</script>
+</html>
